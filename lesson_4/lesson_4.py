@@ -1,9 +1,12 @@
 import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
 import lesson_4_graphics
 
-iowa_file_path = 'train.csv'
+# Terminal: cd .\lesson_4\
+
+iowa_file_path = '../train.csv'
 home_data = pd.read_csv(iowa_file_path)
 
 y = home_data.SalePrice
@@ -35,32 +38,26 @@ iowa_model_split.fit(train_X, train_y)
 val_predictions = iowa_model_split.predict(val_X.head())
 val_actuals = val_y.head().tolist()
 
-# Print the top few validation predictions
-# print("\nTop few validation predictions after data split:\n",val_predictions[:5])
-# Print the top few actual prices from validation data
-# print("\nTop few actual prices from validation data:\n",val_y[:5])
-
-# from sklearn.metrics import mean_absolute_error
-
 # Calculate the mean absolute error in validation data
-# val_mae = mean_absolute_error(val_y, val_predictions)
+val_mae = mean_absolute_error(val_y, iowa_model_split.predict(val_X))
+print("\nMean absolute error:", val_mae)
 
-# print("\nMean absolute error:", val_mae, "\n")
-
-print("\nCreating comparison graphics...\n")
+print("\nCreating comparison graphics...")
 
 # Chama a função do outro arquivo para criar o primeiro gráfico
-lesson_4_graphics.plotar_comparacao_barras(
-    previsoes=in_sample_preds,
-    valores_reais=in_sample_actuals,
-    titulo='Comparação: Previsão vs. Valor Real (Dados de Treino)',
-    nome_arquivo='comparacao_in_sample.png'
+lesson_4_graphics.plot_comparison_bars(
+    predictions=in_sample_preds,
+    actual_values=in_sample_actuals,
+    title='Comparison: Prediction vs. Actual Value (training data)',
+    file_name='comparison_in_sample.png'
 )
 
 # Chama a mesma função para criar o segundo gráfico
-lesson_4_graphics.plotar_comparacao_barras(
-    previsoes=val_predictions,
-    valores_reais=val_actuals,
-    titulo='Comparação: Previsão vs. Valor Real (Dados de Validação)',
-    nome_arquivo='comparacao_validacao.png'
+lesson_4_graphics.plot_comparison_bars(
+    predictions=val_predictions,
+    actual_values=val_actuals,
+    title='Comparison: Prediction vs. Actual Value (validation data)',
+    file_name='comparison_validation.png'
 )
+
+print("\n")
