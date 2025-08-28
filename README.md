@@ -2,7 +2,7 @@
   
 ## About
 
-This repository documents the learnings from completing the ["Intro to Machine Learning"](https://www.kaggle.com/learn/intro-to-machine-learning) course on Kaggle.
+This repository documents the learnings from completing the [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) course on [Kaggle](https://www.kaggle.com/).
 
 Hands-on project focused on establishing a solid foundation in the workflow of a Machine Learning project, from data exploration to model validation.
 
