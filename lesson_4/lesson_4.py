@@ -44,7 +44,7 @@ print("\nMean absolute error:", val_mae)
 
 print("\nCreating comparison graphics...")
 
-# Chama a função do outro arquivo para criar o primeiro gráfico
+# Call function to create the first graphic
 lesson_4_graphics.plot_comparison_bars(
     predictions=in_sample_preds,
     actual_values=in_sample_actuals,
@@ -52,7 +52,7 @@ lesson_4_graphics.plot_comparison_bars(
     file_name='comparison_in_sample.png'
 )
 
-# Chama a mesma função para criar o segundo gráfico
+# Call function to create the second graphic
 lesson_4_graphics.plot_comparison_bars(
     predictions=val_predictions,
     actual_values=val_actuals,
