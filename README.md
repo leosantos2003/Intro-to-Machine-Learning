@@ -10,11 +10,11 @@ Hands-on project focused on establishing a solid foundation in the workflow of a
 
 * `lesson_3`: first machine learning model; building the first model.
  
-* `lesson_4`: model validation; measuring the performance of the model for testing and comparing alternatives.
+* `lesson_4`: model validation; measuring the performance of the model for testing and comparing alternatives. [(see graphics)](https://github.com/leosantos2003/Intro-to-Machine-Learning/tree/main/lesson_4)
  
-* `lesson_5`: underfitting and overfitting; fine-tuning the model for better performance.
+* `lesson_5`: underfitting and overfitting; fine-tuning the model for better performance. [(see graphics)](https://github.com/leosantos2003/Intro-to-Machine-Learning/tree/main/lesson_5)
  
-* `lesson_6`: random forests; using a more sophisticated machine learning algorithm.
+* `lesson_6`: random forests; using a more sophisticated machine learning algorithm. [(see graphic)](https://github.com/leosantos2003/Intro-to-Machine-Learning/tree/main/lesson_6)
 
 ## License
 
