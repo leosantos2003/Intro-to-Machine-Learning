@@ -1,4 +1,8 @@
+<div align="center">
+      
+      
 # Lesson 4
+</div>
 
 <div style="display: flex; justify-content: center;">
 <div class="texto-titulo">
@@ -13,7 +17,7 @@
             
 ## Graphic 2:
 * Comparison between Prediction Values and Actual Values.
-* Model train with half of the DataSet and out to predict the other half of the values. That strategy of splitting up the DataSet makes the predictions more reliable.
+* Model trained with half of the DataSet and out to predict the other half of the values. That strategy of splitting up the DataSet makes the predictions more reliable.
             
 </div>
       <img style="width: 48%;" alt="comparison_validation" src="https://github.com/user-attachments/assets/4d125f16-ce47-40dd-9092-21abf88b4cb2" />
