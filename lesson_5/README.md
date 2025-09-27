@@ -10,7 +10,7 @@
 * It's important to determine the tree size for the lowest Mean Absolute Error. A tree too big or too low may not be so precise in most cases. 
 
 </div>
-      <img style="width: 48%;" alt="mae_vs_leaf_nodes" src="https://github.com/user-attachments/assets/bd408789-c4c8-4938-9bc1-15068a811dea" />
+      <img width="600" height="360" alt="mae_vs_leaf_nodes" src="https://github.com/user-attachments/assets/bd408789-c4c8-4938-9bc1-15068a811dea" />
 <div class="texto-titulo">
       
 ## Graphic 2:
@@ -18,5 +18,5 @@
 * Choosing the optimal tree size caused the predictions to be very precise, given that the Mean Absolute Error was the lowest.
 
 </div>
-      <img style="width: 48%;" alt="final_model_comparison" src="https://github.com/user-attachments/assets/fc185c9f-569c-4fbe-936f-8fd38687d637" />
+      <img width="600" height="360" alt="final_model_comparison" src="https://github.com/user-attachments/assets/fc185c9f-569c-4fbe-936f-8fd38687d637" />
 </div>
