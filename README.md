@@ -16,7 +16,11 @@ Hands-on project focused on establishing a solid foundation in the workflow of a
  
 * `lesson_6`: random forests; using a more sophisticated machine learning algorithm. [(see graphic)](https://github.com/leosantos2003/Intro-to-Machine-Learning/tree/main/lesson_6)
 
-## Lesson 4
+<div align="center">
+  
+  ## Lesson 4
+
+</div>
 
 `lesson 4`: model validation; measuring the performance of the model for testing and comparing alternatives.
 
@@ -39,7 +43,11 @@ Hands-on project focused on establishing a solid foundation in the workflow of a
       <img width="600" height="360" alt="comparison_validation" src="https://github.com/user-attachments/assets/4d125f16-ce47-40dd-9092-21abf88b4cb2" />
 </div>
 
-## Lesson 5
+<div align="center">
+  
+  ## Lesson 5
+
+</div>
 
 `lesson_5`: underfitting and overfitting; fine-tuning the model for better performance.
 
@@ -62,7 +70,11 @@ Hands-on project focused on establishing a solid foundation in the workflow of a
       <img width="600" height="360" alt="final_model_comparison" src="https://github.com/user-attachments/assets/fc185c9f-569c-4fbe-936f-8fd38687d637" />
 </div>
 
-## Lesson 6
+<div align="center">
+  
+  ## Lesson 6
+
+</div>
 
 `lesson_6`: random forests; using a more sophisticated machine learning algorithm.
 
