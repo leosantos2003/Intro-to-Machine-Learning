@@ -10,5 +10,5 @@
 * The comparision shows the superiority of Random Forest over the Decision Tree in any case. 
 
 </div>
-      <img style="width: 48%;" alt="mae_models_comparison" src="https://github.com/user-attachments/assets/19926981-f8c1-4ae5-8671-d630b43b148a" />
+      <img width="600" height="360" alt="mae_models_comparison" src="https://github.com/user-attachments/assets/19926981-f8c1-4ae5-8671-d630b43b148a" />
 </div>
